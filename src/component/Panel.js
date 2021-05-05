@@ -21,7 +21,7 @@ class Panel extends React.Component {
 
     render(){
         return(
-            <Router basename={process.env.PUBLIC_URL}>
+            <Router basename={"/PiWO_Lab5"}>
                 <section id="wrapper">
                     <Switch>
                         <Route path={"/"} exact>
